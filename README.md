@@ -103,12 +103,6 @@ Place the img in the right place taking care of the overflow was pretty challeng
         top: -6rem;
     }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 The Javascript part was pretty basic and use few Selector and a click event.
 I then make sure that no other li element has the show class before toggle on the clicked element. 
 
