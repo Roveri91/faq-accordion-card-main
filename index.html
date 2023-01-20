@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+
+
+</head>
+<body>
+  <div class="container">
+    <!-- Section containing all the images -->
+    <section class="images-container">
+      <div class="main-image-container">
+        <picture class="main-illustration">
+          <source media="(min-width:1000px)" srcset="images/illustration-woman-online-desktop.svg">
+          <source media="(max-width:999px)" srcset="images/illustration-woman-online-mobile.svg">
+          <img src="images/illustration-woman-online-desktop.svg" alt="a woman infront of a desktop">
+        </picture>
+        <picture class="shadow-illustration">
+          <source media="(min-width:1000px)" srcset="images/bg-pattern-desktop.svg">
+          <source media="(max-width:999px)" width="210px" srcset="images/bg-pattern-mobile.svg">
+          <img src="images/bg-pattern-desktop.svg" alt="Shadow of the main image">
+        </picture>
+      </div>
+      
+      <img class="block-image" src="images/illustration-box-desktop.svg" alt="a square box with the @ mark">
+    
+    </section>
+ 
+    <!-- section containing all the Q&A text -->
+    <section class="text-container">
+      <h1>FAQ</h1>
+      <ul>
+        <li>
+          <div class="question">
+            <h3>How many team members can I invite?</h3>
+          </div>
+          <div class="answer">
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+          </div>
+        </li>
+        <li class="show">
+          <div class="question">
+            <h3>What is the maximum file upload size?</h3>
+          </div>
+          <div class="answer">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </li>
+        <li>
+          <div class="question">
+            <h3>How do I reset my password?</h3>
+          </div>
+          <div class="answer">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </div>
+        </li>
+        <li>
+          <div class="question">
+            <h3>Can I cancel my subscription?</h3>
+          </div>
+          <div class="answer">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </li>
+        <li>
+          <div class="question">
+            <h3>Do you provide additional support?</h3>
+          </div>
+          <div class="answer">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </li>
+      </ul>
+    </section> 
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Roveri91" target="_blank">Simone Roveri</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
